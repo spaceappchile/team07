@@ -9,6 +9,6 @@ The FPGA is responsible for interfacing modules in a transparent manner, so that
 Flight hardware should not use the Arduino or Raspberry Pi development boards but its' processors, stripped-down of unnecessary connectors and peripherals.
 However, in order to test the idea and provide a proof of concept we have worked on out-of-the-box boards (with no redundancy, obviously) alongside our conceptual architectural description.
 
-The file architecture.pdf provides an in-depth description of the hardware architecture, backed up with the files in the Hardware folder. The folders named Arduino and Raspberry Pi provide the code we used for the development boards.
+The [architecture definition](/architecture.pdf "Architecture") file provides an in-depth description of the hardware architecture, backed up with the files in the Hardware folder. The folders named Arduino and Raspberry Pi provide the code we used for the development boards.
 
 Block diagrams have been created using Dia (http://dia-installer.de/).
