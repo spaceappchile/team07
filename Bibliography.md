@@ -18,3 +18,6 @@ http://www.raspberrypi.org/wp-content/uploads/2012/04/Raspberry-Pi-Schematics-R1
 
 ArduSat schematics
 http://tinyurl.com/ArduSatPayloadv1
+
+Raspberry Pi with Arduino as I2C-Slave
+https://github.com/binerry/RaspberryPi/tree/master/snippets/c/i2c-arduino

@@ -1,5 +1,7 @@
 ArduSat Pi:
+======================================
 A triple modular redundancy flight computer based on Arduino and Raspberry Pi
+--------------------------------------------
 
 This project aims to define a cubesat payload architecture based on ArduSat and using a Raspberry Pi to extend processing capabilities. In order to arrive at a reliable, flight-capable solution, we have attempted to produce a redundant system where each processor is replicated three times and an FPGA works as an arbiter and voting mechanism.
 The FPGA is responsible for interfacing modules in a transparent manner, so that a single failure will be corrected. It also resets the system if a processor fails permanently for a certain period of time.
